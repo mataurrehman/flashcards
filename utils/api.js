@@ -46,15 +46,6 @@ export function getDecks() {
             }
         })
 }
-
-export function getDeck(id) {
-    return AsyncStorage.getItem(FLASHCARS_STORAGE_KEY)
-        .then(result => {
-            const decks = JSON.parse(result)
-            return decks[id]
-        })
-}
-
 export function addCardAPI(title, card) {
     return AsyncStorage.getItem(FLASHCARS_STORAGE_KEY)
         .then((results) => {

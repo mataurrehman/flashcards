@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { StyleSheet, Text, View, TouchableOpacity, Button, Animated } from 'react-native'
 import { connect } from 'react-redux'
 import { getSingleDeck } from './../actions'
-import { Container, Content, Form, Item, Input } from 'native-base'
 import { Ionicons } from '@expo/vector-icons'
 import { gray,blue,pink, white } from '../utils/colors'
 import TextButton from './TextButton'
