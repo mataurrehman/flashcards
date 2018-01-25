@@ -8,8 +8,8 @@ ReactNative Redux based Flashcard app which helps in creating quiz and decks and
 
 ## Setup
 
-  - `cd falshcards` <br/>
-  Now run these two commands these will download the dependices and srtart the APP respectively.
+  - `cd flashcards` <br/>
+  Now run these two commands these will download the dependices and start the APP respectively.
  ```
   npm insatll
   npm start
